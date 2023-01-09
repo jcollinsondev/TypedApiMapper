@@ -21,7 +21,7 @@
     "typecheck": "kcd-scripts typecheck",
     "lint": "kcd-scripts lint",
     "format": "kcd-scripts format",
-    "publish:lib": "yarn build && yarn publish .\\lib\\ --access=public"
+    "publish:lib": "yarn build && yarn publish --access=public"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.1",
