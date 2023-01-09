@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {api, BASE_URL} from './utils/setup-env'
+import {api, BASE_URL} from '../../tests/setup-env'
 
 const mockRequest = jest.fn()
 

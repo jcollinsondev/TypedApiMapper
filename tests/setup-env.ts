@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-import {Route} from '../../types/routes'
-import {createApiRoutes, createApi} from '../../core/typedApi'
+import {Route} from '../src/types/routes'
+import {createApiRoutes, createApi} from '../src/core/typedApi'
 
 interface ApiOptions {
   method: 'GET' | 'POST' | 'DELETE'
