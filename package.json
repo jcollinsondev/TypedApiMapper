@@ -16,7 +16,7 @@
     "build": "rd /s /q .\\lib\\ && kcd-scripts build --out-dir lib",
     "prerelease": "git checkout main && git pull origin main && yarn install && yarn validate && git add .",
     "release": "standard-version -a",
-    "release:tags": "git push --follow-tags origin master",
+    "release:tags": "git push --follow-tags origin main",
     "test": "kcd-scripts test --detectOpenHandles --forceExit",
     "typecheck": "kcd-scripts typecheck",
     "lint": "kcd-scripts lint",
