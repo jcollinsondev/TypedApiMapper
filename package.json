@@ -1,6 +1,6 @@
 {
   "name": "typed-api-mapper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
@@ -13,7 +13,7 @@
     "validate": "kcd-scripts validate",
     "pre-commit": "kcd-scripts pre-commit",
     "commit": "cz",
-    "build": "rd /s /q .\\lib\\ && kcd-scripts build --out-dir lib",
+    "build": "kcd-scripts build",
     "prerelease": "git checkout main && git pull origin main && yarn install && yarn validate && git add .",
     "release": "standard-version -a",
     "release:tags": "git push --follow-tags origin main",
