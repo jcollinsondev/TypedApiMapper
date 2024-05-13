@@ -1,4 +1,4 @@
-import {Routes, RouteHandler} from 'types/routes'
+import {Routes, RouteHandler} from './routes'
 
 export type RequestHandler<TOptions = {}> = <TInput, TOutput>(
   path: string[],

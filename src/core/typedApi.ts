@@ -1,7 +1,7 @@
-import {Api, ApiRoutes, ComposedApiRoutes, RequestHandler} from 'types/api'
-import {Routes, RoutesOptions, RouteHandler} from 'types/routes'
+import {Api, ApiRoutes, ComposedApiRoutes, RequestHandler} from '../types/api'
+import {Routes, RoutesOptions, RouteHandler} from '../types/routes'
 
-import {transformProperties} from 'utils/transformProperties'
+import {transformProperties} from '../utils/transformProperties'
 
 function createRouteHandler<TRoutes extends Routes, TOptions = {}>(
   route: Extract<keyof TRoutes, string>,
